@@ -1,5 +1,7 @@
 # vim-srs
 
+*NOTE* This is a work in progress. It doesn't work yet.
+
 A Spaced repetition software system (SRS) implemented as a vim plugin using plain text (i.e. markdown) files.
 
 vim-srs is a "spaced repetition software" implementation for the vim editor.

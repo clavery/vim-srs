@@ -4,4 +4,5 @@ endif
 
 let loaded_srs = 1
 
-command! -nargs=0 SRSHello call srs#Hello()
+command! -complete=file -nargs=? VimSRSBegin call srs#Begin(<q-args>)
+command! -nargs=0 VimSRSAnswer call srs#Answer()
